@@ -125,6 +125,17 @@ padding-bottom: 4.5rem;
 width:auto !important;
 height:auto !important;
 }
+.copyrights {
+text-align: center;
+    color: #c78c33;
+}
+
+@media (min-width: 780px) {
+  .s-block.s-block--banners.container .grid.secondBanner .banner-entry {
+    height: 600px !important;
+  }
+}
+
 
 @media (max-width: 770px) {
   .navbar.sm {
@@ -254,5 +265,20 @@ display:flex;
 justify-content:space-between;
 padding:0 1%;
 }
+.content {
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+.content {
+    position: relative;
+}
+@media (max-width: 660px) {
+salla-slider[type]:not(.hydrated)>div>div, salla-slider[type]:not(.hydrated) .swiper>div>div>div, .carousel-slider .swiper-wrapper>div {
+    width: 40%!important;
+}}
 
 /* .form.product-form */
